@@ -25,6 +25,7 @@ class SchedulerController
     until finished
       # logic for your program
 
+
       runner_view.ask_if_user_is_finished
       user_choice = gets.chomp
 
